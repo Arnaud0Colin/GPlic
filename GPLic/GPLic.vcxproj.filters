@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GPLic.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="GPLicDlg.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="License.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPLic.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GPLicDlg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="License.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpApp.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\x241.bin">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="res\GPLic.rc2">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6d03d074-d9ec-4a97-a17a-782cae805956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{ef13f12b-caff-4bf1-b9dd-2c35fc0a7385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{650107f5-e80b-4ff5-ac9b-3d921210e8a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GPLic.ico">
+      <Filter>Res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GPLic.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
